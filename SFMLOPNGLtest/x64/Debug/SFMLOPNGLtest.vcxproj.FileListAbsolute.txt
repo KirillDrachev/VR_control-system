@@ -1,0 +1,2 @@
+C:\Users\Gigabyte\SFMLTest\SFMLOPNGLtest\x64\Debug\SFMLOPNGLtest.exe
+C:\Users\Gigabyte\SFMLTest\SFMLOPNGLtest\x64\Debug\SFMLOPNGLtest.pdb

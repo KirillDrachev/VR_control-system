@@ -1,0 +1,19 @@
+#version 330 core
+  
+in vec2 TexPos; 
+
+uniform sampler2D MyTexture;
+uniform bool IsTexture;
+uniform vec4 Color;
+void main()
+{
+   if(IsTexture){
+   vec4 FragColor;
+   FragColor = texture(MyTexture, TexPos);
+   FragColor.w = 1.0f;
+   gl_FragColor = FragColor.zyxw; 
+   }
+   else {
+   gl_FragColor = Color;
+   }
+}
